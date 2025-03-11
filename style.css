@@ -89,6 +89,7 @@ body {
 }
 #myinfo{
     height: 50%;
+    /* min-height: 350px; */
 }
 .icon{
     display: inline-flex;
@@ -113,11 +114,11 @@ body {
 .icon:hover{
     width: 60px;   /* ปรับขนาดวงกลม */
     height: 60px;
+    transition: 0.2s;
     .bi-github{
         font-size: 32px;
-        transition: 0.5s;
+        transition: 0.2s;
     };
-    transition: 0.5s;
 }
 
 .underline{
@@ -139,11 +140,11 @@ body {
 }
 .ImgAndInfo{
     height: 20%;
-    margin-bottom: 100px;
+    min-height: 400px;
 }
 .myworkbtn{
     padding: 10px 52px;/*บอกขนาด: บนล่างpx ซ้ายขวาpx */
-    margin: 1% 0%;
+    margin: 20px 20px;
     border-radius: 50px;
     text-align: center;
     text-decoration: none; 
@@ -155,9 +156,10 @@ body {
     border: 2px solid #aa0404;
 }
 .myworkbtn:hover{
-    padding: 15px 54px;
-    margin: 5% 0%;
-    transition: 0.5s;
+    /* padding: 18px 60px;
+    margin: 5% 0%; */
+    font-size: 18px;
+    transition: 0.2s;
 }
 
 .end{
